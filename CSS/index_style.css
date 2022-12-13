@@ -3,6 +3,7 @@ nav p {
     padding: 20px;
     font-size: 20px;
 }
+
  *{
     text-decoration: none;
  }
@@ -23,12 +24,6 @@ nav p {
     border: 1px solid black;
 }
 
-
-
-
-
-
-
 .hello{
     font-family: 'Montserrat', sans-serif;
     width: fit-content;
@@ -40,22 +35,3 @@ nav p {
     color: rgb(97, 3, 3);
     text-shadow:  3px 3px 20px #b8537d;
 }
-
-/* button{
-    display: inline;
-    background-color:green;
-    color: var(--White);
-    font-weight: 700;
-    font-size: 1rem;
-    font-family: 'Fraunces', serif;
-    font-family: inherit;
-    padding: 1rem 0 ;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    border-radius: 0.625rem;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
-} */
