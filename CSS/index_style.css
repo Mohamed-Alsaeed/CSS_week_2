@@ -1,0 +1,61 @@
+nav p {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+ *{
+    text-decoration: none;
+ }
+
+#p1_main_index,
+#p2_main_index,
+#p3_main_index {
+    background-color:  rgb(182, 96, 146) ;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    color: black;
+    margin-left: 40px;
+    width: 200px;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+.hello{
+    font-family: 'Montserrat', sans-serif;
+    width: fit-content;
+    font-size: 3rem;
+    color: rgb(97, 3, 3);
+    text-shadow:  3px 3px 20px #b8537d;
+}
+.my_name{
+    color: rgb(97, 3, 3);
+    text-shadow:  3px 3px 20px #b8537d;
+}
+
+/* button{
+    display: inline;
+    background-color:green;
+    color: var(--White);
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Fraunces', serif;
+    font-family: inherit;
+    padding: 1rem 0 ;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+} */

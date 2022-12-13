@@ -1,0 +1,116 @@
+:root{
+	--Dark-cyan: hsl(158, 36%, 37%);
+	--Cream: hsl(30, 38%, 92%);
+	--Very-dark-blue: hsl(212, 21%, 14%);
+	--Dark-grayish-blue: hsl(228, 12%, 48%);
+	--White: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--Cream);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 24rem ;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: var(--Dark-grayish-blue);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h2{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: var(--Very-dark-blue);
+    font-family: 'Fraunces', serif;
+}
+
+section p{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Dark-grayish-blue);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.old_price{
+    text-decoration: line-through;
+    font-size: 14px;
+    display: inline;
+    text-decoration: line-through;
+    font-family: 'Fraunces', serif;
+    color: var(--Dark-grayish-blue);
+}
+
+.new_price{
+    margin-right: 1.5rem;
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: var(--Dark-cyan);
+}
+
+button{
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Fraunces', serif;
+    font-family: inherit;
+    padding: 1rem 0 ;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+button img{
+    margin-right: .5rem;
+}
+
+.big_boss{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    max-width: 600px;
+    background-color: var(--White);
+}
+
+.words{
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.img{
+    border-radius: 1rem ;
+}
+
+.price{
+    margin-bottom: 2rem;
+    align-items: center;
+   
+    display: flex;
+}
+
+#a1,#a2{
+    display: inline;
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: none;
+}
