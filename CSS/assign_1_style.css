@@ -14,7 +14,6 @@
 }
 
 .title{
-    /* font-family: 'Montserrat', sans-serif; */
     width: fit-content;
     margin: auto;
     padding: 30px 0 ;
@@ -30,15 +29,16 @@
 .a11{
     font-size: 25px;
 }
+
 .a12,.a13{
     font-size: 20px;
     color: blue;
     font-weight: bold;
 }
+
 .a13{
     margin-left: 25px;
 }
-
 
 #s1,
 #s2{
@@ -46,6 +46,7 @@
     font-size: 15px;
     margin-left: 10px;
 }
+
 #s12,
 #s11,
 #s21,
